@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us - Green Mana Games</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <section id="header">
+        <a href="index.html"><img src="Images/Logo.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="news.html">Newsletter</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class="fas fa-shopping-bag"></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="section-p1">
+        <h2>Contact Us</h2>
+        <p>We’d love to hear from you. Please fill out the form below to get in touch.</p>
+        
+        <form id="contact-form" action="https://formspree.io/f/manyodqv" method="POST">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="Your Email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" required placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="send-button">Send</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
