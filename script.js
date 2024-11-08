@@ -76,7 +76,6 @@ function removeItem(index) {
 // Checkout function (placeholder)
 function checkout() {
     alert("Proceeding to checkout!");
-    // Implement checkout logic here
 }
 
 // Initialize cart display on cart.html page
