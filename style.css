@@ -102,7 +102,8 @@ body {
 }
 
 .logo {
-  height: 55px;
+  height: 120px; /* Adjust the height to make the logo bigger */
+  max-height: 100%; /* Ensure it doesn't overflow */
 }
 
 #hero{
